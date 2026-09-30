@@ -241,7 +241,7 @@ function showMemory() {
     setTimeout(function () {
 
         memoryImage.src =
-            "images/" + memoryPhotos[currentMemory];
+            "IMAGES/" + memoryPhotos[currentMemory];
 
         memoryCaption.textContent =
             memoryCaptions[currentMemory];
